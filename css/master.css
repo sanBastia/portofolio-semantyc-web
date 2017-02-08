@@ -1,0 +1,107 @@
+body{
+  background-color: #F7F6EA;
+}
+h1{
+  color: #FF5D5D;
+}
+small{
+  text-align: center;
+}
+
+#main-container{
+  margin: 0 auto;
+}
+
+.container-header {
+  margin :inherit;
+}
+
+.container-content {
+
+ margin :10px 500px;
+ border: 1px solid black;
+ background-color: white;
+
+}
+
+.copyright{
+  text-align: center;
+}
+
+.socialmedia{
+
+  float: right;
+
+}
+
+
+.container-footer{
+
+  background-color: #FF5D5D;
+  position: absolute;
+  right:0;
+  bottom: 0;
+  width: 100%;
+  overflow:hidden;
+}
+
+
+.header-image{
+  height: 500px;
+  background-image: url("/img/sports.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.menubar {
+
+  background-color: #FF5D5D;
+  text-align: center;
+
+}
+
+.menubar li {
+  display: inline-block;
+  padding: 5px 7px;
+}
+
+.menubar li:hover {
+    background-color: #e7e7e7;
+}
+
+.menubar-kiri {
+  float:left;
+}
+
+.menubar-kanan {
+  float:right;
+}
+
+.searchbar{
+  border-radius: 9px;
+}
+
+.col-sedang{
+  margin:5px 8px ;
+  width: 300px;
+  border: 1px solid #e7e7e7;
+}
+
+.col-kecil{
+  margin:2px 5px ;
+  width:100px;
+  border: 1px solid #e7e7e7;
+}
+
+.col-besar{
+  margin:8px 11px ;
+  width:500px;
+  border: 1px solid #e7e7e7;
+}
+
+
+.row{
+  padding: 10px 20px;
+}
